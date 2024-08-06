@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+html {
+}
+body {
+    color: #290d0d;
+    background-color: #f7f8ee;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0px;
+}
+div {
+    overflow: auto;
+}
+.lang {
+    width: 40px;
+    border: 1px solid #aaa;
+    margin: auto;
+    padding: 8px;
+    overflow: auto;
+    background-color: #e1e5e090;
+    position: absolute; 
+    top:102%;
+    right: 2%;
+    text-align: center;
+}
+.mainbox {
+    width: calc(30% + 100px);
+    height: 120px;
+    border: 1px solid #aaa;
+    margin: auto;
+    padding: 8px;
+    overflow: auto;
+    background-color: #e1e5e090;
+    position: absolute; 
+    bottom:10%;
+    left: 35%;
+    text-align: center;
+}
+.title {
+    margin-top: 10px;
+    font-size: 220%;
+}
+.page {
+    height: 100vh;
+    width: 99vw;
+}
+.bgim {
+    background: url(ovbox.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+.inst {
+    font-weight: bold;
+    color: #c26a33;
+}
+.instim {
+    display: block;
+    width: 100%;
+}
+.instimd {
+    display: inline-block;
+    text-align: center;
+    padding: 10%;
+    width: 28%;
+}
+.caption {
+    margin: 7px;
+}
+@media (max-width: 979px) {
+    .mainbox {
+        width: 40%;
+        left: 30%;
+    }
+}
+@media (max-width: 640px) {
+    .mainbox {
+        width: 80%;
+        left: 10%;
+    }
+}
+@media (min-width: 980px) {
+    .content {
+        width: 80%;
+        padding: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .content {
+        width: 60%;
+        padding: 20px;
+    }
+    .instimd {
+        padding: 5%;
+    }
+}

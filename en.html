@@ -1,109 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="ovbox.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>ovbox - ORLANDOviols consort box for remote music collaboration</title>
-    <style>
-      html {
-      }
-      body {
-          color: #290d0d;
-          font-family: Helvetica,Arial,sans-serif;
-          font-size: 20px;
-          margin: 0px;
-      }
-      div {
-          overflow: auto;
-      }
-      .lang {
-          width: 40px;
-          border: 1px solid #aaa;
-          margin: auto;
-          padding: 8px;
-          overflow: auto;
-          background-color: #e1e5e090;
-          position: absolute; 
-          top:102%;
-          right: 2%;
-          text-align: center;
-      }
-      .mainbox {
-          width: 30%;
-          height: 120px;
-          border: 1px solid #aaa;
-          margin: auto;
-          padding: 8px;
-          overflow: auto;
-          background-color: #e1e5e090;
-          position: absolute; 
-          bottom:10%;
-          left: 35%;
-          text-align: center;
-      }
-      .title {
-          margin-top: 10px;
-          font-size: 260%;
-      }
-      .page {
-          height: 100vh;
-          width: 99vw;
-      }
-      .bgim {
-          background: url(ovbox.jpg) no-repeat center center fixed;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-      }
-      .content {
-          width: 90%;
-          padding: 20px;
-          margin: auto;
-          max-width: 1200px;
-      }
-      .inst {
-          font-weight: bold;
-          color: #c26a33;
-      }
-      .instim {
-          display: block;
-          width: 100%;
-      }
-      .instimd {
-          display: inline-block;
-          text-align: center;
-          padding: 10%;
-          width: 28%;
-      }
-      .caption {
-          margin: 7px;
-      }
-      @media (max-width: 979px) {
-          .mainbox {
-              width: 40%;
-              left: 30%;
-          }
-          @media (max-width: 640px) {
-              .mainbox {
-                  width: 80%;
-                  left: 10%;
-              }
-              @media (min-width: 980px) {
-                  .content {
-                      width: 80%;
-                      padding: 20px;
-                  }
-              }
-              @media (min-width: 1200px) {
-                  .content {
-                      width: 60%;
-                      padding: 20px;
-                  }
-                  .instimd {
-                      padding: 5%;
-                  }
-              }
-    </style>
     <script>
       function setlang() {
           if (/^de\b/.test(navigator.language)) {
@@ -118,14 +18,12 @@
         <a href="de.html">DE</a>
       </div>
       <div class="mainbox">
-        <div class="title">ovbox</div>
-        <div>ORLANDOviols consort box</div>
+        <div class="title">OVBOX</div>
+        <div style="font-weight: bold;">Revolutionizing Real-Time Audio Collaboration</div>
       </div>
     </div>
     <div class="">
       <div class="content">
-        <h2>Remote collaboration project: 'ovbox'</h2>
-
         <a href="https://login.ovbox.de/">login</a>
         -
         <a href="https://github.com/gisogrimm/ovbox/wiki/Installation">installation</a>
@@ -134,14 +32,15 @@
         -
         <a href="https://orlandoviols.com/">ORLANDOviols</a>
 
-        <p>Since all concerts of our ensemble ORLANDOviols were
-        cancelled in 2020 due to the Covid19 pandemic, we took the
-        opportunity to develop a remote rehearsal device: the
-        ORLANDOviols consort box, or ovbox for short. This device
-        allows us to hear each other as if we were in the same room by
-        creating a virtual acoustic environment. We believe in sharing
-        our knowledge and have made the technology available to the
-        public.</p>
+        <p>When the pandemic put our concerts on hold, we saw an
+        opportunity to push the boundaries of music-making. We created
+        the ORLANDOviols Consort Box, or ovbox, a revolutionary device
+        that lets musicians connect and create together, no matter the
+        distance. With ovbox, the virtual room becomes a reality, and
+        the sound of the ensemble comes alive. We're passionate about
+        sharing our discoveries, so we're opening up the ovbox
+        technology to the world, empowering musicians and researchers
+        to reimagine the possibilities of music and collaboration.</p>
 
         <p>This system is free for anyone to use. To use it, you need
         either a Raspberry Pi mini computer with special software, or

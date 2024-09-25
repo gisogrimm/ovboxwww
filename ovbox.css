@@ -4,10 +4,7 @@ html {
 body {
     color: #290d0d;
     background-color: #f7f8ee;
-    font-family: "Cormorant", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    font-family: Helvetica, sans;
     font-size: 24px;
     margin: 0px;
 }
@@ -42,6 +39,10 @@ div {
 .title {
     margin-top: 10px;
     font-size: 220%;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .page {
     height: 100vh;
